@@ -2,8 +2,7 @@
 
 ## What's Kernel?
 
-When you have some experience with Dart, you know that it's a multiplatform language which can
-be interpreted, compiled to JS (with two different compilers!) and native code.
+Dart is a multiplatform language that can be interpreted or be compiled to JS (with two different compilers!) and native code.
 With that many backends, you don't want to write an end-to-end compiler for each of them. Some work, like
 parsing, type checking and resolving methods is completely independent of the backend, so
 why do that multiple times? In Dart, a package called `front_end` is responsible to compile Dart
